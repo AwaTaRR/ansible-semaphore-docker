@@ -1,0 +1,10 @@
+---
+postgres_user: "semaphore"
+postgres_db: "semaphore"
+semaphore_db_dialect: "postgres"
+semaphore_db_host: "postgres"
+semaphore_db_name: "semaphore"
+semaphore_db_user: "semaphore"
+semaphore_admin_username: "semaphore"
+semaphore_admin_name: "semaphore"
+semaphore_admin_email: "semaphore@localhos"

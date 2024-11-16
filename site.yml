@@ -1,0 +1,10 @@
+---
+- hosts: semaphore_servers
+  become: yes
+  vars_files:
+  - roles/semaphore/vars/main.yml
+  - roles/semaphore/vars/secrets.yml
+  roles:
+    - role: docker
+    - role: semaphore
+    - role: check

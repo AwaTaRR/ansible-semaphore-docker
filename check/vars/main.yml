@@ -1,0 +1,24 @@
+---
+expected_url: http://172.20.247.20:3000/
+expected_content: |
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <base href="/">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link rel="icon" href="favicon.png">
+      <title>Dashboard - Semaphore UI</title>
+    <script defer src="js/chunk-vendors.8d4a5281.js"></script><script defer src="js/app.e1858608.js"></script><link href="css/chunk-vendors.cbe31aba.css" rel="stylesheet"><link href="css/app.fb6a9d69.css" rel="stylesheet"></head>
+    <body>
+      <noscript>
+        <strong>
+            We're sorry but web doesn't work properly
+            without JavaScript enabled. Please enable it to continue.
+        </strong>
+      </noscript>
+      <div id="app"></div>
+      <!-- built files will be auto injected -->
+    </body>
+  </html>

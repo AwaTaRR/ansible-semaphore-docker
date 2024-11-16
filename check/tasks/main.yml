@@ -1,0 +1,14 @@
+---
+- name: Get web info
+  uri:
+    url: "{{ expected_url }}"
+    return_content: yes
+  register: webpage_content
+
+- name: Web check task
+  assert:
+    that:
+      - webpage_content.content == expected_content
+    fail_msg: "Web Error"
+    success_msg: "Web Success"
+
