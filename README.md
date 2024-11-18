@@ -3,7 +3,7 @@
 Требования для выполнения playbook:
  - Установлен Ansible
  - В host.ini добавлен адрес сервера на OS Ubuntu
- - Файл данных с паролями roles/semaphore/vars/secrets.yml зашифрован Ansible-Vault
+ - Ввести пароль от файла с переменными roles/semaphore/vars/secrets.yml (зашифрован Ansible-Vault)
 
 Выполнение разбито на 3 роли:
   1) Docker - Установка Docker Compose
