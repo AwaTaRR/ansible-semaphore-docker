@@ -14,7 +14,7 @@
 - ansible-playbook -i hosts.ini site.yml --ask-vault-pass
   
 Пароль:
-- sempahore
+- semaphore
 
 
     
